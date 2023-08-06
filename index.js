@@ -93,6 +93,7 @@ app.post("/createUser", async (req, res) => {
           />
           <title>LinuxDiary 4.0</title>
         </head>
+      
         <body style="font-family: 'Poppins', sans-serif">
           <div>
             <u></u>
@@ -163,7 +164,9 @@ app.post("/createUser", async (req, res) => {
                     data-tooltip-class="a1V"
                     data-tooltip="Download"
                   >
-                    <div class="akn"><div class="aSK J-J5-Ji aYr"></div></div>
+                    <div class="akn">
+                      <div class="aSK J-J5-Ji aYr"></div>
+                    </div>
                   </div>
                 </div>
       
@@ -201,7 +204,7 @@ app.post("/createUser", async (req, res) => {
                             color: #000000;
                           "
                         >
-                          Hola Open Sourcerer!
+                          Hola Open Sourcerer!🐧
                         </h1>
       
                         <p
@@ -212,11 +215,11 @@ app.post("/createUser", async (req, res) => {
                           "
                         >
                           We are pleased to inform you that your registration for
-                          <strong>LinuxDairy 4.0</strong> was successful!<br /><br />
+                          <strong>LinuxDairy 4.0</strong> was successful!🎉<br /><br />
                           The event will be held on
                           <strong><em>19th and 20th of August 2023</em></strong
                           >, focusing on Linux along with exciting WarGames at the
-                          end.
+                          end.⚔️💻
                         </p>
                         You will have access to all the sessions and activities we
                         have scheduled for the event as a registered participant.
@@ -233,7 +236,7 @@ app.post("/createUser", async (req, res) => {
                           <a
                             href="https://linuxdiary2023.wcewlug.org"
                             style="font-size: 17px"
-                            >linuxdiary.wcewlug.org</a
+                            >linuxdiary2023.wcewlug.org</a
                           >
                           <br />
                           Do share this with your friends and join us for an exciting
@@ -275,65 +278,76 @@ app.post("/createUser", async (req, res) => {
                           padding-left: 0;
                           padding-right: 0;
                         "
-                        width="596"
                       >
                         <img
                           style="
-                            width: 180px;
-                            max-width: 180px;
-                            height: 180px;
-                            max-height: 180px;
                             text-align: center;
-                            color: #ffffff;
+                            border-top-left-radius: 30px;
+                            border-bottom-right-radius: 30px;
+                            margin-bottom: 5px;
                           "
                           alt="Logo"
-                          src="https://ci5.googleusercontent.com/proxy/TisKghh6CVtCSczBFdUzjnV3J612Dox2nLAXEU0vEMrB_bjQJMmrUmwfzgMGvIXYVLp-ur368plqJ8jCfcOGAEJTCbjk7y0WA0lVYg5drw_kLKMC4rwArY6BQfjX=s0-d-e1-ft#https://res.cloudinary.com/ravikjha7/image/upload/v1669990835/6_onbyb0.png"
+                          src="https://res.cloudinary.com/dduur8qoo/image/upload/v1689771850/wlug_white_logo_page-0001_u8efnh.jpg"
                           align="center"
-                          width="180"
-                          height="85"
+                          width="200"
+                          height="120"
                           class="CToWUd"
                           data-bit="iit"
                         />
                       </td>
                     </tr>
       
-                    <tr>
-                      <td>
+                    <tr style="margin-bottom: 30px" align="center">
+                      <td align="center">
                         <a
                           href="https://www.instagram.com/wcewlug/"
                           target="_blank"
                           data-saferedirecturl="https://www.google.com/url?q=https://www.instagram.com/wcewlug/&amp;source=gmail&amp;ust=1680976985984000&amp;usg=AOvVaw16ObtJOZ1hpw9644RZ4oMM"
+                          style="margin: 0 12px"
                           ><img
-                            src="https://ci3.googleusercontent.com/proxy/f7g6lMFgA75_Aq2zIEAe_WMbnONAhMTc82-4lxigPiEuX3yxK9zuOsLoNazImMci4IFrU6urnadMUd3dTQDNcJT2CV8dZ01DMj0g=s0-d-e1-ft#https://img.icons8.com/windows/32/null/instagram-new.png"
+                            src="https://res.cloudinary.com/dduur8qoo/image/upload/v1689773467/Instagram_vn7dni_kzulby.png"
                             class="CToWUd"
                             data-bit="iit"
+                            height="30"
+                            width="30"
                         /></a>
                         <a
                           href="https://twitter.com/wcewlug"
                           target="_blank"
                           data-saferedirecturl="https://www.google.com/url?q=https://twitter.com/wcewlug&amp;source=gmail&amp;ust=1680976985984000&amp;usg=AOvVaw1ypHRKREADjq_cn0IRD2po"
                           ><img
-                            src="https://ci3.googleusercontent.com/proxy/FGiluFSHeZZ5G6vgpgLIHX_pWAwz7YXx_izKvGeXCF37XZGUK9Atvyl-FeKAylgcIIbip2wOvb2JENSNJ5sx-u3J77PO=s0-d-e1-ft#https://img.icons8.com/windows/32/null/twitter.png"
+                            src="https://res.cloudinary.com/dduur8qoo/image/upload/v1689772239/twitter-icon-square-logo-108D17D373-seeklogo.com_tjkqmo.png"
                             class="CToWUd"
                             data-bit="iit"
+                            height="30"
+                            width="30"
+                            style="border-radius: 5px"
                         /></a>
                         <a
                           href="https://linkedin.com/company/wlug-club"
                           target="_blank"
                           data-saferedirecturl="https://www.google.com/url?q=https://linkedin.com/company/wlug-club&amp;source=gmail&amp;ust=1680976985984000&amp;usg=AOvVaw0TDo2Akq1O-un9s_gRi70t"
+                          style="margin: 0 10px"
                           ><img
-                            src="https://ci3.googleusercontent.com/proxy/dtDnSZeDyKv6sNoNMenwSC2L8cjQSI2ttOj6cN8ivHaCnlbVUbwlzwZYxXMg5gJ9vaP9DfiLMWrAlVFFFf-xZ1x-xFI7kqpiMw=s0-d-e1-ft#https://img.icons8.com/ios-glyphs/30/null/linkedin.png"
+                            src="https://res.cloudinary.com/dduur8qoo/image/upload/v1685247353/linkedin_mg2ujv.png"
                             class="CToWUd"
                             data-bit="iit"
+                            height="30"
+                            width="30"
+                            style="border-radius: 5px"
                         /></a>
                         <a
                           href="http://discord.wcewlug.org/join"
                           target="_blank"
                           data-saferedirecturl="https://www.google.com/url?q=http://discord.wcewlug.org/join&amp;source=gmail&amp;ust=1680976985984000&amp;usg=AOvVaw3PNiAyDSeiO1V36KVKeLZl"
+                          style="margin: 0 1px"
                           ><img
-                            src="https://ci5.googleusercontent.com/proxy/k-nXo_zrA7dzPpTeOBjoTHMLfoZmAxz4xS8iRI2TdfV77mvlJRuzK3m_DKoqxy1IFl8Z2m-97kNnzOZi5ub-lTifEb3n2Vd-u0Agz-FRwPmgl9M=s0-d-e1-ft#https://img.icons8.com/material-rounded/24/null/discord-logo.png"
+                            src="https://res.cloudinary.com/dduur8qoo/image/upload/v1689771996/unnamed_m7lgs0.png"
                             class="CToWUd"
                             data-bit="iit"
+                            height="30"
+                            width="30"
+                            style="border-radius: 5px"
                         /></a>
                       </td>
                     </tr>
