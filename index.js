@@ -231,7 +231,7 @@ app.post("/createUser", async (req, res) => {
                             LinuxDiary 4.0 Website:</strong
                           >
                           <a
-                            href="https://linuxdiary.wcewlug.org"
+                            href="https://linuxdiary2023.wcewlug.org"
                             style="font-size: 17px"
                             >linuxdiary.wcewlug.org</a
                           >
