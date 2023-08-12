@@ -37,6 +37,32 @@ app.get("/registeredUsers", async (req, res) => {
   res.send({ "No Of Users": count });
 });
 
+app.get("/referalcodeRanking",async(req,res)=>{
+  user.aggregate([
+    {
+      $addFields: {
+        lowerCaseCity: { $toLower: "$referalCode" }
+      }
+    },
+    {
+      $group: {
+        _id: "$lowerCaseCity",
+        count: { $sum: 1 }
+      }
+    },
+  ])
+  .exec()
+  .then(groupedElements => {
+    // Print or process the groupedElements as needed
+    console.log(groupedElements);
+    res.send(groupedElements)
+  })
+  .catch(err => {
+    console.error(err);
+  });
+})
+
+
 app.post("/createUser", async (req, res) => {
   try {
     const existing = await user.findOne({ email: req.body.email });
